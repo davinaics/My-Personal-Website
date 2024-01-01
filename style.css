@@ -1,0 +1,235 @@
+/* BODY */
+body {
+    background: linear-gradient(#091d90 0%, #59b5e0 40%, #091d90 100%);
+}
+
+/* NAVBAR */
+#navbarSupportedContent li a{
+    font-weight: bold;
+}
+
+.active {
+    color:#091d90 !important;
+    border-bottom: 5px solid !important;
+}
+
+#navbarSupportedContent a:hover{
+    color:black;
+    border-bottom: 5px solid;
+}
+
+/* HOME */
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.profile h2 {
+    font-family: 'Lilita One', sans-serif;
+    color: beige;
+}
+
+.profile h4 {
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    color: beige;
+}
+
+.profile_image {
+    width: 200px;
+    height: auto;
+}
+
+/* PROFILE */
+.biodata {
+    background: linear-gradient(#ffffff 0%, #ffffffc8 40%, #ffffff00 100%);
+    margin-top: -5px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.header {
+    color: black;
+    font-style: italic;
+}
+
+.header::first-letter {
+    font-family: 'Lobster', sans-serif;
+    font-size: 3cm;
+    color: black;
+    text-shadow: 5px 8px 9px #59b5e0;
+}
+
+.isibiodata {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: black;
+    padding: 10px, auto;
+    text-align: left;
+}
+
+.imgbiodata img {
+    width: 300px;
+    height: auto;
+    padding-top: 5px;
+}
+
+/* HOBBY */
+.hobi {
+    padding-top: 50px;
+}
+
+.header2 {
+    color: white;
+    font-style: italic;
+}
+
+.header2::first-letter {
+    font-family: 'Lobster', sans-serif;
+    font-size: 3cm;
+    color: white;
+    text-shadow: 5px 8px 9px #59b5e0;
+}
+
+.hobi .isihobi .card {
+    background:#ffffff;
+    text-align:left;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin: 10px auto;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hobi .isihobi .card .headerhobi {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    margin: 10px 0 7px 0;
+}
+
+.hobi .isihobi .card .box p {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.hobi .isihobi .card:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); 
+}
+
+/* ACTIVITY */
+.activity {
+    background: linear-gradient(#ffffff 0%, #ffffffc8 40%, #ffffff00 100%);
+    padding-top: 50px;
+    margin-top: -5px;
+    padding-bottom: 50px;
+}
+
+.header3 {
+    color: black;
+    font-style: italic;
+}
+
+.header3::first-letter {
+    font-family: 'Lobster', sans-serif;
+    font-size: 3cm;
+    color: black;
+    text-shadow: 5px 8px 9px #59b5e0;
+}
+
+.isiactivity {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-align:left;
+    padding: 10px, auto;
+}
+
+.imgup img{
+    width: 380px;
+    height: auto;
+    padding-top: 5px;
+}
+
+/* GALLERY */
+.gallery{
+    padding-top: 50px;
+}
+
+.header4 {
+    color: white;
+    font-style: italic;
+}
+
+.header4::first-letter {
+    font-family: 'Lobster', sans-serif;
+    font-size: 3cm;
+    color: white;
+    text-shadow: 5px 8px 9px #59b5e0;
+}
+
+.foto1 img:hover{
+    transition: all 0.5s ease;
+    transform:scale(1.05);
+    box-shadow:  0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.foto2 img:hover{
+    transition: all 0.5s ease;
+    transform:scale(1.05);
+    box-shadow:  0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* MESSAGE */
+.komentar {
+    background: linear-gradient(#ffffff 0%, #ffffffc8 40%, #ffffff00 100%);
+    padding-bottom: 20px;
+    margin-top: -5px;
+    padding-top: 50px;
+}
+
+.header5 {
+    color: black;
+    font-style: italic;
+}
+
+.header5::first-letter {
+    font-family: 'Lobster', sans-serif;
+    font-size: 3cm;
+    color: black;
+    text-shadow: 5px 8px 9px #59b5e0;
+}
+
+.tombol {
+    text-align: right;
+}
+
+.form {
+    padding-top: 20px;
+}
+
+.form tr td {
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+.form table {
+    background-color:#59b5e0;
+    border: 2px solid black;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color:rgb(204, 204, 190);
+}
+.copy_text {
+    font-family: "Poppins", sans-serif;
+    color:black;
+}
